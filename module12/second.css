@@ -1,0 +1,50 @@
+/*
+p{
+    color: blueviolet;
+    font-family: fantasy;
+    text-decoration: line-through;
+    text-indent: 50px;
+}
+
+h1{
+    color: cadetblue;
+    text-decoration: wavy;
+}
+
+h2{
+    color: hotpink;
+    text-decoration: overline;
+}
+h3{
+    color: chocolate;
+    text-decoration: wavy;
+}
+*/
+
+.blue{
+    color: blue;
+    text-decoration: overline;
+}
+.red{
+    color: red;
+    text-decoration: underline;
+}
+#dizajni{
+    font-family: fantasy;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: cyan;
+    text-decoration: line-through;
+}
+a:active{
+    color: cornflowerblue;
+    text-decoration: solid;
+}

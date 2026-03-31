@@ -1,0 +1,23 @@
+ol{
+    background-color: azure;
+    padding: 20px;
+
+}
+
+ol li{
+    background: darkorange;
+    padding: 20px;
+    margin: 10px;
+}
+
+ul{
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+
+ul li {
+    background: darkcyan;
+    padding: 30px;
+    margin: 15px;
+}

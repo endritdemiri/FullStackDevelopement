@@ -1,0 +1,539 @@
+body {
+    margin: 0; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+#part-1 {
+    background-color: #0a0a0a;
+    height: 100px;
+}
+
+.first_part {
+    height: 100%;
+}
+
+header {
+    padding: 20px 60px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+
+nav ul li.active {
+    background-color: red;
+    border-radius: 50px;
+}
+
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+.car-grid {
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 25px;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.car-card {
+    background: #121212;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+    background: #0f0f0f;
+    padding: 10px;
+}
+
+.car-card h3 {
+    margin: 10px ;
+}
+
+.car-card p {
+    color: red;
+    font-style: bold;
+}
+
+.details-btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 16px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.details-btn:hover {
+    background: darkred;
+}
+
+.car-page {
+    padding: 20px 40px 60px;
+}
+
+.car-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.car-header h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: grey;
+}
+
+.car-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.image-section {
+    flex: 1;
+    min-width: 320px;
+    text-align: center;
+}
+
+.main-img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(255, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+.gallery {
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: 75px;
+    height: 55px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 8px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    border: 1px solid red;
+}
+
+.info {
+    flex: 1;
+    min-width: 280px;
+    background: rgba(20, 20, 20, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow:25px rgba(255, 0, 0, 0.15);
+}
+
+.price-box h2 {
+    color: red;
+    font-size: 32px;
+    margin: 0;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 5px;
+    background: red;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.specs p {
+    margin: 10px;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.specs strong {
+    color: darkred;
+}
+
+.buy-btn {
+    display: block;
+    margin-top: 25px;
+    padding: 12px;
+    background: red;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background: darkred;
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    opacity: 1;
+}
+
+#section-3{
+    background-color: #0a0a0a;
+    min-height: 820px;
+    color: white;
+}
+
+#contact-form{
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.toch{
+    display: flex;
+}
+
+input [type ="text"],input[type="email"]{
+    width: 50%;
+    height: 56px;
+}
+
+input[type="text"],input[type="email"],textarea{
+    font-family: "Titillium Web",sans-serif;
+    color: white;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    margin: 16px;
+    border-radius: 5px;
+    padding-left: 26px;
+}
+
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+input[type="submit"]{
+    background-color: darkred;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: white;
+}
+
+footer{
+    background-color: darkred;
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px ;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+header img{
+    width: 117px;
+    height: 37px;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #121212;
+    border-radius: 15px;
+    box-shadow:20px darkred;
+}
+
+.about-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    margin-bottom: 25px;
+}
+
+.about-section h2 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+.about-section ul {
+    padding-left: 20px;
+}
+
+.about-section li {
+    margin-bottom: 8px;
+}
+
+.buy-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #121212;
+    border-radius: 15px;
+    box-shadow:20px darkred;
+    text-align: center;
+}
+
+.buy-container h1 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.buy-form input,
+.buy-form select,
+.buy-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px ;
+    border: none;
+    border-radius: 8px;
+    background: #1a1a1a;
+    color: white;
+}
+
+.buy-form textarea {
+    height: 100px;
+}
+
+.buy-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: red;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-style: bold;
+    transition: 0.3s;
+}
+
+.buy-form button:hover {
+    background: darkred;
+}
+
+.sell-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #121212;
+    border-radius: 15px;
+    box-shadow:20px darkred;
+    text-align: center;
+}
+
+.sell-container h1 {
+    margin-bottom: 10px;
+}
+
+.sell-form input,
+.sell-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px ;
+    border: none;
+    border-radius: 8px;
+    background: #1a1a1a;
+    color: white;
+}
+
+.sell-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.sell-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: red;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-style: bold;
+    transition: 0.3s;
+}
+
+.sell-form button:hover {
+    background: darkred;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #121212;
+    border-radius: 15px;
+    box-shadow: 20px rgba(255, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-container h1 {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px ;
+    border: none;
+    border-radius: 8px;
+    background: #1a1a1a;
+    color: white;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: red;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-style: bold;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: darkred;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.cars-section {
+    padding: 30px 0;
+}
+
+.section-title {
+    color: red;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-left: 5px solid red;
+    padding-left: 15px;
+    letter-spacing: 3px;
+}
+
+.veturat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 40px;
+}

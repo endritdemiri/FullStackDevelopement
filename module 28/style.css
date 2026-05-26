@@ -1,0 +1,10 @@
+.test{
+    font-size:50px ;
+    color:cyan ;
+    background-color:midnightblue ;
+    padding: 20px;
+    border:2px solid gold;
+    text-align:center ;
+    transform:scale(0.67) ;
+    transition: 2s ease;
+}

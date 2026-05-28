@@ -1,0 +1,36 @@
+.triangle{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid red;
+
+}
+
+.rect{
+
+    width: 200px;
+    height: 100px;
+    border: 2px solid navy;
+
+}
+
+.circle{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+
+
+}
+
+.square{
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid lawngreen;
+
+}

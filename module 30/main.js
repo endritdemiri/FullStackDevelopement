@@ -59,5 +59,5 @@ button_divide.onclick=function(){
     result.innerHTML=parseInt(num1.value) / parseInt(num2.value)
 }
 
-button
+
 

@@ -1,0 +1,19 @@
+ul li{
+    background-color: lightgrey;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#select{
+    padding: 0;
+}
+
+ul#sort li{
+    background-color: rgb(63, 180,219);
+    margin-bottom: 15px;
+    padding: 15px;
+    color: rgb(232, 225, 225);
+    list-style-type: none;
+}
